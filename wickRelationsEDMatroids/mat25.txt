@@ -1,0 +1,13 @@
+Q[p0e, p12e, p13e, p23e, p14e, p24e, p34e, p1234e, p35e, p1235e, p45e, p1245e]
+{ 
+ + p0e p1234e - p12e p34e + p13e p24e - p14e p23e,
+ + p0e p1235e - p12e p35e,
+ + p0e p1245e - p12e p45e,
+ - p13e p45e + p14e p35e,
+ - p23e p45e + p24e p35e,
+ - p13e p1245e + p14e p1235e,
+ - p23e p1245e + p24e p1235e,
+ + p34e p1235e - p35e p1234e,
+ + p34e p1245e - p45e p1234e,
+ + p35e p1245e - p45e p1235e
+}

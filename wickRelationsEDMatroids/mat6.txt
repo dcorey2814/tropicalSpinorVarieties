@@ -1,0 +1,4 @@
+Q[p0e, p13e, p23e, p14e, p24e]
+{ 
+ + p13e p24e - p14e p23e
+}

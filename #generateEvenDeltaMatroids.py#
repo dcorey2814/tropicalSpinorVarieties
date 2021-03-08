@@ -1,0 +1,17 @@
+import copy
+import os
+import struct
+
+
+
+def symDiff(A,B):
+    return set
+
+
+def isEvenDeltaMatroid(M,n):
+    for A in M:
+        for B in M:
+            for a in A,symmetric_difference(B):
+                for b in A.symmetric_difference(B):
+                    
+                
