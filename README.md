@@ -2,7 +2,7 @@
 
 First, compute the starting cone by running (in the gfanComp directory)
 ```
-gfan_tropicalStartingCone startingConeInput.txt
+gfan_tropicalstartingsone startingConeInput.txt
 ```
 To record the symmetries, append the lines to the output file: 
 
@@ -14,5 +14,9 @@ To record the symmetries, append the lines to the output file:
 The result is stored in the file tropicalTraverseInput.txt. To get the tropicalization of S_5^circ, run
 
 ```
-gfan_tropicalTraverse  --symmetry --symsigns --nocones tropicalTraverseInput.txt
+gfan_tropicaltraverse  --symmetry --symsigns --nocones tropicalTraverseInput.txt
 ```
+
+## From gfan computation to Trop <b>S</b><sub>5</sub>&deg in the paper. 
+
+
