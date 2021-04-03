@@ -20,3 +20,5 @@ The rays of Trop <b>S</b><sub>5</sub>&deg; computed by gfan are complicated expr
 ## Proof of Lemma 7.8.
 To prove Lemma 7.8, we apply Lemma 7.2 to each nonmaximal cone &tau; of &Sigma;<sub>5</sub>'. The collections of cones A<sub>tau</sub> are listed in Table 7.1. To verify Equation 7.1 for these cones, see the sage file testAtau.sage. 
 
+## Matroid subdivisions of <b>S</b><sub>5</sub>&deg;.
+
