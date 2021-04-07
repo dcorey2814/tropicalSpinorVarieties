@@ -18,7 +18,7 @@ The result is contained in the file TS5.txt.
 The rays of Trop <b>S</b><sub>5</sub>&deg; computed by gfan are complicated expressions, so in the paper we use different primitive generators modulo the lineality space. To verify that these are the same, see the sage file checkFan.sage. 
 
 ## Proof of Lemma 7.8.
-To prove Lemma 7.8, we apply Lemma 7.2 to each nonmaximal cone &tau; of &Sigma;<sub>5</sub>'. The collections of cones A<sub>&tau;</sub> are listed in Table 7.1. To verify Equation 7.1 for these cones, see the sage file testAtau.sage. 
+To prove Lemma 7.8, we apply Lemma 7.2 to each nonmaximal cone &tau; of &Sigma;<sub>5</sub>'. The collections of cones A<sub>&tau;</sub> are listed in Table 7.1. To verify Equation 7.1 for these cones, see the sage file testAtau.sage (this works with sage 9.0). 
 
 ## Matroid subdivisions of <b>S</b><sub>5</sub>&deg;.
 This is done in polymake, and works with version 4.0. See the file subdivisionsS5.poly. 
