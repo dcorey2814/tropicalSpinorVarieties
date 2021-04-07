@@ -10,7 +10,7 @@ To record the symmetries, append the lines to the outputFile.txt:
 ```
 The result is stored in the file tropicalTraverseInput.txt. To get the tropicalization of <b>S</b><sub>5</sub>&deg;, run
 ```
-gfan_tropicaltraverse  --symmetry --symsigns --nocones tropicalTraverseInput.txt
+gfan_tropicaltraverse  --symmetry --symsigns --nocones < tropicalTraverseInput.txt
 ```
 The result is contained in the file TS5.txt.
 
