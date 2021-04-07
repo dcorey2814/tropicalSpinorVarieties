@@ -1,2 +1,0 @@
-Q[p0e, p1e, p2e, p3e, p4e, p012e, p013e, p023e, p123e, p014e, p024e, p124e, p034e, p134e, p234e, p01234e]
-{p124e*p034e-p024e*p134e+p014e*p234e-p4e*p01234e, p123e*p034e-p023e*p134e+p013e*p234e-p3e*p01234e, p123e*p024e-p023e*p124e+p012e*p234e-p2e*p01234e, p123e*p014e-p013e*p124e+p012e*p134e-p1e*p01234e, p023e*p014e-p013e*p024e+p012e*p034e-p0e*p01234e, p4e*p123e-p3e*p124e+p2e*p134e-p1e*p234e, p4e*p023e-p3e*p024e+p2e*p034e-p0e*p234e, p4e*p013e-p3e*p014e+p1e*p034e-p0e*p134e, p4e*p012e-p2e*p014e+p1e*p024e-p0e*p124e, p3e*p012e-p2e*p013e+p1e*p023e-p0e*p123e}

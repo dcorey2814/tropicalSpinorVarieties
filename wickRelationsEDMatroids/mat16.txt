@@ -1,8 +1,0 @@
-Q[p0e, p12e, p13e, p14e, p24e, p34e, p15e, p25e, p35e]
-{ 
- - p12e p34e + p13e p24e,
- - p12e p35e + p13e p25e,
- + p14e p25e - p15e p24e,
- + p14e p35e - p15e p34e,
- + p24e p35e - p25e p34e
-}
