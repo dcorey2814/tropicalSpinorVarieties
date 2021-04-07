@@ -12,6 +12,8 @@ The result is stored in the file tropicalTraverseInput.txt. To get the tropicali
 ```
 gfan_tropicaltraverse  --symmetry --symsigns --nocones tropicalTraverseInput.txt
 ```
+The result is contained in the file TS5.txt.
+
 ## From gfan computation to Trop <b>S</b><sub>5</sub>&deg; in the paper. 
 The rays of Trop <b>S</b><sub>5</sub>&deg; computed by gfan are complicated expressions, so in the paper we use different primitive generators modulo the lineality space. To verify that these are the same, see the sage file checkFan.sage. 
 
