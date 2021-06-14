@@ -39,28 +39,28 @@ $w16 = $f3 + $f4 + $f012 + $f023 + $f014;
 $w17 = $f3 + $f4 + $f012 + $f013 + $f2 + $f3 + $f4 + $f234;
 $w18 = $f3 + $f4 + $f013 + $f014 - $f0 - $f1 - $f2 - $f012 ;
 
-$p = new Polytope(POINTS => [[1, 1, 0, 0, 0, 0], [1, 0, 1, 0, 0, 0], [1, 0, 0, 1, 0, 0], [1, 0, 0, 0, 1, 0], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 0, 0], [1, 1, 1, 0, 1, 0], [1, 1, 0, 1, 1, 0], [1, 0, 1, 1, 1, 0], [1, 1, 1, 0, 0, 1], [1, 1, 0, 1, 0, 1], [1, 0, 1, 1, 0, 1], [1, 1, 0, 0, 1, 1], [1, 0, 1, 0, 1, 1], [1, 0, 0, 1, 1, 1], [1, 1, 1, 1, 1, 1]]);
+$Delta5 = new Polytope(POINTS => [[1, 1, 0, 0, 0, 0], [1, 0, 1, 0, 0, 0], [1, 0, 0, 1, 0, 0], [1, 0, 0, 0, 1, 0], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 0, 0], [1, 1, 1, 0, 1, 0], [1, 1, 0, 1, 1, 0], [1, 0, 1, 1, 1, 0], [1, 1, 1, 0, 0, 1], [1, 1, 0, 1, 0, 1], [1, 0, 1, 1, 0, 1], [1, 1, 0, 0, 1, 1], [1, 0, 1, 0, 1, 1], [1, 0, 0, 1, 1, 1], [1, 1, 1, 1, 1, 1]]);
 
 
-$msd0= new fan::SubdivisionOfPoints(POINTS=>$p->VERTICES, WEIGHTS => $w0);
-$msd1 = new fan::SubdivisionOfPoints(POINTS=>$p->VERTICES, WEIGHTS => $w1);
-$msd2 = new fan::SubdivisionOfPoints(POINTS=>$p->VERTICES, WEIGHTS => $w2);
-$msd3 = new fan::SubdivisionOfPoints(POINTS=>$p->VERTICES, WEIGHTS => $w3);
-$msd4 = new fan::SubdivisionOfPoints(POINTS=>$p->VERTICES, WEIGHTS => $w4);
-$msd5 = new fan::SubdivisionOfPoints(POINTS=>$p->VERTICES, WEIGHTS => $w5);
-$msd6 = new fan::SubdivisionOfPoints(POINTS=>$p->VERTICES, WEIGHTS => $w6);
-$msd7 = new fan::SubdivisionOfPoints(POINTS=>$p->VERTICES, WEIGHTS => $w7);
-$msd8 = new fan::SubdivisionOfPoints(POINTS=>$p->VERTICES, WEIGHTS => $w8);
-$msd9 = new fan::SubdivisionOfPoints(POINTS=>$p->VERTICES, WEIGHTS => $w9);
-$msd10 = new fan::SubdivisionOfPoints(POINTS=>$p->VERTICES, WEIGHTS => $w10);
-$msd11 = new fan::SubdivisionOfPoints(POINTS=>$p->VERTICES, WEIGHTS => $w11);
-$msd12 = new fan::SubdivisionOfPoints(POINTS=>$p->VERTICES, WEIGHTS => $w12);
-$msd13 = new fan::SubdivisionOfPoints(POINTS=>$p->VERTICES, WEIGHTS => $w13);
-$msd14 = new fan::SubdivisionOfPoints(POINTS=>$p->VERTICES, WEIGHTS => $w14);
-$msd15 = new fan::SubdivisionOfPoints(POINTS=>$p->VERTICES, WEIGHTS => $w15);
-$msd16 = new fan::SubdivisionOfPoints(POINTS=>$p->VERTICES, WEIGHTS => $w16);
-$msd17 = new fan::SubdivisionOfPoints(POINTS=>$p->VERTICES, WEIGHTS => $w17);
-$msd18 = new fan::SubdivisionOfPoints(POINTS=>$p->VERTICES, WEIGHTS => $w18);
+$msd0 = new fan::SubdivisionOfPoints(POINTS=>$Delta5->VERTICES, WEIGHTS => $w0);
+$msd1 = new fan::SubdivisionOfPoints(POINTS=>$Delta5->VERTICES, WEIGHTS => $w1);
+$msd2 = new fan::SubdivisionOfPoints(POINTS=>$Delta5->VERTICES, WEIGHTS => $w2);
+$msd3 = new fan::SubdivisionOfPoints(POINTS=>$Delta5->VERTICES, WEIGHTS => $w3);
+$msd4 = new fan::SubdivisionOfPoints(POINTS=>$Delta5->VERTICES, WEIGHTS => $w4);
+$msd5 = new fan::SubdivisionOfPoints(POINTS=>$Delta5->VERTICES, WEIGHTS => $w5);
+$msd6 = new fan::SubdivisionOfPoints(POINTS=>$Delta5->VERTICES, WEIGHTS => $w6);
+$msd7 = new fan::SubdivisionOfPoints(POINTS=>$Delta5->VERTICES, WEIGHTS => $w7);
+$msd8 = new fan::SubdivisionOfPoints(POINTS=>$Delta5->VERTICES, WEIGHTS => $w8);
+$msd9 = new fan::SubdivisionOfPoints(POINTS=>$Delta5->VERTICES, WEIGHTS => $w9);
+$msd10 = new fan::SubdivisionOfPoints(POINTS=>$Delta5->VERTICES, WEIGHTS => $w10);
+$msd11 = new fan::SubdivisionOfPoints(POINTS=>$Delta5->VERTICES, WEIGHTS => $w11);
+$msd12 = new fan::SubdivisionOfPoints(POINTS=>$Delta5->VERTICES, WEIGHTS => $w12);
+$msd13 = new fan::SubdivisionOfPoints(POINTS=>$Delta5->VERTICES, WEIGHTS => $w13);
+$msd14 = new fan::SubdivisionOfPoints(POINTS=>$Delta5->VERTICES, WEIGHTS => $w14);
+$msd15 = new fan::SubdivisionOfPoints(POINTS=>$Delta5->VERTICES, WEIGHTS => $w15);
+$msd16 = new fan::SubdivisionOfPoints(POINTS=>$Delta5->VERTICES, WEIGHTS => $w16);
+$msd17 = new fan::SubdivisionOfPoints(POINTS=>$Delta5->VERTICES, WEIGHTS => $w17);
+$msd18 = new fan::SubdivisionOfPoints(POINTS=>$Delta5->VERTICES, WEIGHTS => $w18);
 
 
 # To find the maximal cells and dual graph of $msdi
