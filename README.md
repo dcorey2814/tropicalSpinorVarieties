@@ -1,3 +1,9 @@
+# Initial degenerations of Spinor varieties
+
+Here, we record all of the code used in the paper <a href="https://arxiv.org/abs/2104.03442">Initial degenerations of spinor varieties</a> by <a href="https://www.danieljcorey.com/">Daniel Corey</a>. 
+
+
+
 ## Computing the tropicalization of <b>S</b><sub>5</sub>&deg; using  <a href="https://users-math.au.dk/jensen/software/gfan/gfan.html">gfan</a>
 The version of gfan that is used is 0.6.2.  First, compute the starting cone by running
 ```
@@ -23,5 +29,45 @@ To prove Lemma 7.8, we apply Lemma 7.2 to each nonmaximal cone &tau; of &Sigma;<
 ## Matroid subdivisions of <b>S</b><sub>5</sub>&deg;.
 This is done in polymake, and works with version 4.0. See the notebook subdivisionsS5.ipynb. 
 
+## References to software
 
+We use the following programs. 
 
+<a href="https://users-math.au.dk/jensen/software/gfan/gfan.html">gfan</a>
+
+```
+@Misc{gfan,
+	author = {Jensen, Anders N.},
+	title = {Gfan, a software system for {G}r{\"o}bner fans and tropical varieties},
+	howpublished = {{\tt http://home.imf.au.dk/jensen/software/gfan/gfan.html}}
+} 
+```
+
+<a href="https://www.polymake.org/doku.php">polymake</a>
+
+```
+@incollection{polymake:2000,
+    AUTHOR = {Gawrilow, Ewgenij and Joswig, Michael},
+     TITLE = {{\tt polymake}: a framework for analyzing convex polytopes},
+ BOOKTITLE = {Polytopes---combinatorics and computation ({O}berwolfach, 1997)},
+    SERIES = {DMV Sem.},
+    VOLUME = {29},
+     PAGES = {43--73},
+ PUBLISHER = {Birkh\"auser, Basel},
+      YEAR = {2000},
+   MRCLASS = {52B55 (68U05)},
+  MRNUMBER = {1785292},
+}  
+```  
+
+<a href="https://www.sagemath.org/">sage</a>
+
+```
+@manual{sagemath,
+  Key          = {SageMath},
+  Author       = {{The Sage Developers}},
+  Title        = {{S}ageMath, the {S}age {M}athematics {S}oftware {S}ystem ({V}ersion 9.0)},
+  note         = {{\tt https://www.sagemath.org}},
+  Year         = {2020},
+}
+```
