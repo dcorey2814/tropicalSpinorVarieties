@@ -4,7 +4,7 @@ Here, we record all of the code used in the paper <a href="https://arxiv.org/abs
 
 
 
-## Computing the tropicalization of <b>S</b><sub>5</sub>&deg; using  <a href="https://users-math.au.dk/jensen/software/gfan/gfan.html">gfan</a>
+## Computing the tropicalization of <b>S</b><sub>5</sub>&deg; using  gfan.
 The version of gfan that is used is 0.6.2.  First, compute the starting cone by running
 ```
 gfan_tropicalstartingsone < startingConeInput.txt > outputFile.txt
