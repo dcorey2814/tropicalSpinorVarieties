@@ -2,12 +2,29 @@
 
 Here, we record all of the code used in the paper <a href="https://arxiv.org/abs/2104.03442">Initial degenerations of spinor varieties</a> by <a href="https://www.danieljcorey.com/">Daniel Corey</a>. 
 
+We compute the tropicalizations of <b>S</b><sub>4</sub>&deg; and <b>S</b><sub>5</sub>&deg; using `gfan` version 0.6.2. 
 
+
+## Computing the tropicalization of <b>S</b><sub>4</sub>&deg; using  gfan.
+First, compute the starting cone by running
+```
+gfan_tropicalstartingcone < startingConeInput4.txt > outputFile.txt
+```
+To record the symmetries, append the lines to the outputFile.txt: 
+```
+{{0,1,4,5,2,3,6,7}, {0,4,5,1,6,2,3,7}, {1,0,4,5,2,3,7,6} }
+{{1,-1,1,1,1,1,1,-1}, {1,1,1,-1,1,-1,-1,-1}, {1,1,1,1,1,1,1,1} }
+```
+The result is stored in the file tropicalTraverseInput4.txt. To get the tropicalization of <b>S</b><sub>4</sub>&deg;, run
+```
+gfan_tropicaltraverse  --symmetry --symsigns --nocones < tropicalTraverseInput4.txt
+```
+The result is contained in the file TS4.txt.
 
 ## Computing the tropicalization of <b>S</b><sub>5</sub>&deg; using  gfan.
-The version of gfan that is used is 0.6.2.  First, compute the starting cone by running
+The computation is similar to the n=4 case above. First, compute the starting cone by running
 ```
-gfan_tropicalstartingsone < startingConeInput.txt > outputFile.txt
+gfan_tropicalstartingcone < startingConeInput.txt > outputFile.txt
 ```
 To record the symmetries, append the lines to the outputFile.txt: 
 ```
