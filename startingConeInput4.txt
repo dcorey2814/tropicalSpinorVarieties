@@ -1,0 +1,2 @@
+Q[pe, p01e, p02e, p03e, p12e, p13e, p23e, p0123e]
+{pe*p0123e-p01e*p23e+p02e*p13e-p03e*p12e}
