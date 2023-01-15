@@ -12,8 +12,8 @@ gfan_tropicalstartingcone < startingConeInput4.txt > outputFile.txt
 ```
 To record the symmetries, append the lines to the outputFile.txt: 
 ```
-{{0,1,4,5,2,3,6,7}, {0,4,5,1,6,2,3,7}, {1,0,4,5,2,3,7,6} }
-{{1,-1,1,1,1,1,1,-1}, {1,1,1,-1,1,-1,-1,-1}, {1,1,1,1,1,1,1,1} }
+{{0,1,4,5,2,3,6,7}, {0,4,5,1,6,2,3,7}, {1,0,4,5,2,3,7,6}}
+{{1,-1,1,1,1,1,1,-1}, {1,1,1,-1,1,-1,-1,-1}, {1,1,1,1,1,1,1,1}}
 ```
 The result is stored in the file tropicalTraverseInput4.txt. To get the tropicalization of <b>S</b><sub>4</sub>&deg;, run
 ```
@@ -24,16 +24,16 @@ The result is contained in the file TS4.txt.
 ## Computing the tropicalization of <b>S</b><sub>5</sub>&deg; using  gfan.
 The computation is similar to the n=4 case above. First, compute the starting cone by running
 ```
-gfan_tropicalstartingcone < startingConeInput.txt > outputFile.txt
+gfan_tropicalstartingcone < startingConeInput5.txt > outputFile.txt
 ```
 To record the symmetries, append the lines to the outputFile.txt: 
 ```
 {{1, 2, 3, 4, 0, 8, 11, 13, 14, 5, 6, 7, 9, 10, 12, 15}, {1, 0, 2, 3, 4, 5, 6, 8, 7, 9, 11, 10, 13, 12, 14, 15}, {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}, {1, 0, 5, 6, 9, 2, 3, 8, 7, 4, 11, 10, 13, 12, 15, 14}, {2, 5, 0, 7, 10, 1, 8, 3, 6, 11, 4, 9, 14, 15, 12, 13}, {5, 2, 1, 8, 11, 0, 7, 6, 3, 10, 9, 4, 15, 14, 13, 12}, {3, 6, 7, 0, 12, 8, 1, 2, 5, 13, 14, 15, 4, 9, 10, 11}, {6, 3, 8, 1, 13, 7, 0, 5, 2, 12, 15, 14, 9, 4, 11, 10}, {7, 8, 3, 2, 14, 6, 5, 0, 1, 15, 12, 13, 10, 11, 4, 9}, {4, 9, 10, 12, 0, 11, 13, 14, 15, 1, 2, 5, 3, 6, 7, 8}, {9, 4, 11, 13, 1, 10, 12, 15, 14, 0, 5, 2, 6, 3, 8, 7}, {10, 11, 4, 14, 2, 9, 15, 12, 13, 5, 0, 1, 7, 8, 3, 6}, {12, 13, 14, 4, 3, 15, 9, 10, 11, 6, 7, 8, 0, 1, 2, 5}, {8, 7, 6, 5, 15, 3, 2, 1, 0, 14, 13, 12, 11, 10, 9, 4}, {11, 10, 9, 15, 5, 4, 14, 13, 12, 2, 1, 0, 8, 7, 6, 3}, {13, 12, 15, 9, 6, 14, 4, 11, 10, 3, 8, 7, 1, 0, 5, 2}, {14, 15, 12, 10, 7, 13, 11, 4, 9, 8, 3, 6, 2, 5, 0, 1}, {15, 14, 13, 11, 8, 12, 10, 9, 4, 7, 6, 3, 5, 2, 1, 0}}
 {{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, 1, 1, 1, -1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}}
 ```
-The result is stored in the file tropicalTraverseInput.txt. To get the tropicalization of <b>S</b><sub>5</sub>&deg;, run
+The result is stored in the file tropicalTraverseInput5.txt. To get the tropicalization of <b>S</b><sub>5</sub>&deg;, run
 ```
-gfan_tropicaltraverse  --symmetry --symsigns --nocones < tropicalTraverseInput.txt
+gfan_tropicaltraverse  --symmetry --symsigns --nocones < tropicalTraverseInput5.txt
 ```
 The result is contained in the file TS5.txt.
 
