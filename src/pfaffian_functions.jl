@@ -64,17 +64,6 @@ function even_Delta_matroid_stratum(Q, n, F)
 end
 
 
-#function delta_matroid_to_reduced_expression(Q, n, F, k)
-#    if !(1:n in Q)
-#        return "1:n not in even Delta matroid"
-#    end
-#    RQ = even_Delta_matroid_stratum(Q, n, F)
-#    R = parent(RQ[1][1])
-    
-#    I = reduce_ideal_full(RQ[1], leq_n_terms(RQ[2],k), R, gens(R), false)
-#    return (I[1], I[2])
-#end
-
-#function twist(Q, S)
-#    return sort!([sort!(symdiff(q,S)) for q in Q])
-#end
+function twist(Q, S)
+    return sort!([sort!(symdiff(q,S)) for q in Q])
+end
