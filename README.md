@@ -38,13 +38,13 @@ gfan_tropicaltraverse  --symmetry --symsigns --nocones < tropicalTraverseInput5.
 The result is contained in the file TS5.txt.
 
 ## From gfan computation to Trop <b>S</b><sub>5</sub>&deg; in the paper. 
-The rays of Trop <b>S</b><sub>5</sub>&deg; computed by gfan are complicated expressions, so in the paper we use different primitive generators modulo the lineality space. To verify that these are the same, see the sage notebook checkFan.ipynb. 
+The rays of Trop <b>S</b><sub>5</sub>&deg; computed by gfan are complicated expressions, so in the paper we use different primitive generators modulo the lineality space. To verify that these are the same, see the Oscar notebook `check_fan_oscar.ipynb`. 
 
-## Proof of Lemma 7.8.
-To prove Lemma 7.8, we apply Lemma 7.2 to each nonmaximal cone &tau; of &Sigma;<sub>5</sub>'. The collections of cones A<sub>&tau;</sub> are listed in Table 7.1. To verify Equation 7.1 for these cones, see the sage notebook testAtau.ipynb (this works with sage 9.0). 
+## Proof of Lemma 7.10.
+To prove Lemma 7.10, we apply Lemma 7.3 to each nonmaximal cone &tau; of &Sigma;<sub>5</sub>'. The collections of cones A<sub>&tau;</sub> are listed in Table 7.1. To verify Equation 7.1 for these cones, see the Oscar notebook `lem-7-10.ipynb` (this works with Oscar 0.11.3). 
 
 ## Matroid subdivisions of <b>S</b><sub>5</sub>&deg;.
-This is done in polymake, and works with version 4.0. See the notebook subdivisionsS5.ipynb. 
+This is done in polymake, and works with version 4.0. See the notebook `subdivisionsS5.ipynb`. 
 
 ## References to software
 
@@ -58,6 +58,26 @@ We use the following programs.
 	title = {Gfan, a software system for {G}r{\"o}bner fans and tropical varieties},
 	howpublished = {{\tt http://home.imf.au.dk/jensen/software/gfan/gfan.html}}
 } 
+```
+
+<a href="https://www.oscar-system.org/">Oscar</a>
+
+```
+@misc{OSCAR,
+  key          = {OSCAR},
+  organization = {The OSCAR Team},
+  title        = {{OSCAR} -- Open Source Computer Algebra Research system,
+                  Version  0.10.1},
+  year         = {2022},
+  url          = {https://oscar.computeralgebra.de},
+  }
+
+
+@Book{OSCAR-book,
+  editor = {Eder, Christian and Decker, Wolfram and Fieker, Claus and Horn, Max and Joswig, Michael},
+  title = {The {OSCAR} book},
+  year = {2024},
+}
 ```
 
 <a href="https://www.polymake.org/doku.php">polymake</a>
@@ -75,7 +95,23 @@ We use the following programs.
    MRCLASS = {52B55 (68U05)},
   MRNUMBER = {1785292},
 }  
+
+@InProceedings{polymakeJL,
+    author={Kaluba, Marek and Lorenz, Benjamin and Timme, Sascha},
+    editor={Bigatti, Anna Maria and Carette, Jacques and Davenport, James H. and Joswig, Michael and de Wolff, Timo},
+    title={Polymake.jl: A New Interface to polymake},
+    booktitle={Mathematical Software -- ICMS 2020},
+    year={2020},
+    publisher={Springer International Publishing},
+    address={Cham},
+    pages={377--385},
+    abstract={We present the Julia interfaceto polymake, a software for research in polyhedral geometry. We describe the technical design and how the integration into Julia makes it possible to combine polymake with state-of-the-art numerical software.},
+    isbn={978-3-030-52200-1}
+}
+
 ```  
+
+In previous versions of this project, we used sage.
 
 <a href="https://www.sagemath.org/">sage</a>
 
