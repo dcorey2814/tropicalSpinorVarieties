@@ -40,11 +40,14 @@ The result is contained in the file TS5.txt.
 ## From gfan computation to Trop <b>S</b><sub>5</sub>&deg; in the paper. 
 The rays of Trop <b>S</b><sub>5</sub>&deg; computed by gfan are complicated expressions, so in the paper we use different primitive generators modulo the lineality space. To verify that these are the same, see the Oscar notebook `check_fan_oscar.ipynb`. 
 
-## Proof of Lemma 7.10.
-To prove Lemma 7.10, we apply Lemma 7.3 to each nonmaximal cone &tau; of &Sigma;<sub>5</sub>'. The collections of cones A<sub>&tau;</sub> are listed in Table 7.1. To verify Equation 7.1 for these cones, see the Oscar notebook `lem-7-10.ipynb` (this works with Oscar 0.11.3). 
+## The subdivision in Section 6.3. 
+The subdivision in section 6.3 was computed using Oscar. Furthermore, we verify all the claims in Proposition 6.15 (these can be done by hand as well). See the notebook `prop-6-15.ipynb`. (this works with Oscar 0.11.3). 
 
-## Matroid subdivisions of <b>S</b><sub>5</sub>&deg;.
-This is done in polymake, and works with version 4.0. See the notebook `subdivisionsS5.ipynb`. 
+## Proof of Lemma 7.11.
+To prove Lemma 7.10, we apply Lemma 7.3 to each nonmaximal cone &tau; of &Sigma;<sub>5</sub>'. The collections of cones A<sub>&tau;</sub> are listed in Table 7.1. To verify Equation 7.1 for these cones, see the Oscar notebook `lem-7-11.ipynb` (this works with Oscar 0.11.3). 
+
+## Matroid subdivisions of <b>S</b><sub>4</sub>&deg; and <b>S</b><sub>5</sub>&deg;.
+This is done in `polymake`, and works with version 4.0. See notebooks `subdivisionsS4.ipynb` and `subdivisionsS5.ipynb`. 
 
 ## References to software
 
